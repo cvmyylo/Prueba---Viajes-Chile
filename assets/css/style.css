@@ -1,0 +1,63 @@
+.bg-dark-success-1 {
+    background-color: var(--dark-success-1);
+}
+
+.bg-dark-success-2 {
+    background-color: var(--dark-success-2);
+}
+
+:root {
+    --dark-success-1: #2999a6;
+    --dark-success-2: #2ea6a6;
+}
+
+body {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.imagenlogo {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+i {
+    color: #ffffff;
+}
+
+.img-carousel {
+    width: 100%;
+    height: 45vw;
+}
+
+.img-card-viajes {
+    width: 100%;
+    height: 10vw;
+}
+
+.card {
+    margin: .8rem auto;
+    width: 80%;
+}
+.card img {
+    height: 172px;
+}
+.card-title {
+    font-weight: 400;
+}
+.card-text {
+    font-weight: 300;
+}
+
+.navbar-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
